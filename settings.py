@@ -7,7 +7,13 @@ class Settings:
 
         #for bulltes
         self.bullet_speed = 10
-        self.bullet_width = 3
+        self.bullet_width = 3000
         self.bullet_height = 15
         self.bullet_color = (60,60,60)
-        self.bullet_allowed = 3
+        self.bullet_allowed = 10
+
+        #alien settings
+        self.alien_speed = 1
+        self.fleet_drop_speed = 10
+        # 1 for right, -1 for left
+        self.fleet_direction = 1
